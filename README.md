@@ -21,9 +21,13 @@
 
 <!-- My stats, Pretty bad for now lol -->
 
-  <i >Pretty Bad for now. But we I will come back stronger💪🏽</i>
+  <i >Pretty Bad for now. But I will come back stronger💪🏽</i>
 
 ![James M GitHub stats](https://github-readme-stats.vercel.app/api?username=Brago475&show_icons=true&count_private=true&title_color=ff0000&text_color=ffffff&icon_color=ff0000&bg_color=000000)
+
+<!-- more about me -->
+
+
 
 
 

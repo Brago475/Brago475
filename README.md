@@ -10,7 +10,7 @@
 
 <p align="center">
   <b> 👨🏽‍💻 Full Stack Dev learning how to be better!</b><br/>
-  <b> 👨🏽‍🎓 Student of Computer Science and IT at 
+  <b> 👨🏽‍🎓 Student of Computer Science and IT OPT at 
     <a href="https://www.kean.edu/">Kean University</a>, Union, NJ.
   </b><br>
   <b> 🏫 Currently learning C#. </b></br>

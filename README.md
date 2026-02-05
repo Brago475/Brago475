@@ -269,6 +269,23 @@ fun_fact: "I ship, learn, and share -- one commit at a time"
   </a>
 </p>
 
+<!-- Random Dev Quote -->
+<h2> Dev Quote of the Day</h2>
+
+<p align="center">
+  <a href="https://github.com/PiyushSuthar/github-readme-quotes">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=&author=&border=true" alt="Dev Quote" />
+  </a>
+</p>
+
+<h2> Random Dev Joke</h2>
+
+<p align="center">
+  <a href="https://github.com/ABSphreak/readme-jokes">
+    <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=dark&qColor=%23ff0040&aColor=%23ffffff&textColor=%23ff0040&codeColor=%23ffffff&bgColor=%230d1117" alt="Dev Jokes" />
+  </a>
+</p>
+
 <!-- Contribution Snake -->
 <h2>Watch the Snake Eat My Contributions</h2>
 

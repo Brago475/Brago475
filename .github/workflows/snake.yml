@@ -1,37 +1,53 @@
-name: Generate Snake
+name: Generate Stats Cards
 
 on:
   schedule:
-    # Runs every 12 hours
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+    - cron: "0 3 * * *"   # Every day at 3 AM UTC
+  workflow_dispatch:        # Manual trigger from Actions tab
 
 jobs:
-  generate:
+  generate-cards:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
+      # Checkout the repo using your PAT so we can push back
       - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
+        uses: actions/checkout@v4
         with:
-          github_user_name: Brago475
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
+      # Create the output folder
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      # Generate the STATS card (with letter grade)
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          commit_message: "Update snake animation [skip ci]"
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true&bg_color=0d1117
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Generate the TOP LANGUAGES card
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: >-
+            username=${{ github.repository_owner }}&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&langs_count=8
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Commit and push the generated SVGs
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update stats cards [skip ci]"
+          git push

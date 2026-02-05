@@ -3,7 +3,7 @@ name: Generate Stats Cards
 on:
   schedule:
     - cron: "0 3 * * *"   # Every day at 3 AM UTC
-  workflow_dispatch:        # Manual trigger from Actions tab
+  workflow_dispatch:       
 
 jobs:
   generate-cards:
@@ -12,7 +12,7 @@ jobs:
       contents: write
 
     steps:
-      # Checkout the repo using your PAT so we can push back
+      # Checkout the repo using  PAT so we can push back
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -22,7 +22,7 @@ jobs:
       - name: Create profile directory
         run: mkdir -p profile
 
-      # Generate the STATS card (with letter grade)
+     
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -32,7 +32,6 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Generate the TOP LANGUAGES card
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:

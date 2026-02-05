@@ -55,7 +55,7 @@
 <!-- Featured Projects -->
 ## 🚀 Featured Projects
 
-### [Timely]([https://github.com/Brago475](https://github.com/AquaticNebulae/TimelyProject)) — Real Estate & Professional Services Platform
+### [Timely](https://github.com/AquaticNebulae/TimelyProject) — Real Estate & Professional Services Platform
 > React · TypeScript · Tailwind · SQL · .NET
 
 Role-based platform supporting admins, consultants, and clients. Features project tracking, document workflows, time logging, and audit logging with a modular, scalable frontend architecture.
@@ -113,7 +113,7 @@ Conducted adversarial testing on ChatGPT and Gemini with 50+ crafted prompts to 
 ## 🤝 Let's Connect
 
 <p align="center">
-  <a href="www.linkedin.com/in/jamesmardi"><img src="https://img.shields.io/badge/Portfolio-jwmardi.com-ff0040?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+  <a href="https://jwmardi.com/"><img src="https://img.shields.io/badge/Portfolio-jwmardi.com-ff0040?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
   <a href="https://github.com/Brago475"><img src="https://img.shields.io/badge/GitHub-Brago475-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 

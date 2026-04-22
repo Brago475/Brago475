@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="998" viewBox="0 0 900 998" role="img">
+<rect x="0" y="0" width="900" height="998" fill="#FAFAF8" rx="12"/>
+<rect x="0.5" y="0.5" width="899" height="997" fill="none" stroke="#E4E4E2" stroke-width="1" rx="12"/>
+<text x="450.0" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700" fill="#09090B" text-anchor="middle" letter-spacing="3">MY JOURNEY SO FAR</text>
+<line x1="60" y1="104" x2="840" y2="104" stroke="#E4E4E2" stroke-width="1"/>
+<line x1="100" y1="138" x2="100" y2="862" stroke="#E4E4E2" stroke-width="2"/>
+<circle cx="100" cy="138" r="7" fill="#F59E0B"/>
+<circle cx="100" cy="138" r="3.5" fill="#FAFAF8"/>
+<text x="140" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#B45309" letter-spacing="2">CURRENT</text>
+<text x="840" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#71717A" text-anchor="end">Jan 2026  →  May 2027</text>
+<text x="140" y="166" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="600" fill="#09090B">MS in Computer Science</text>
+<text x="140" y="186" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" fill="#52525B">Kean University</text>
+<text x="140" y="220" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Graduate coursework in Advanced AI, multimodal agents</text>
+<text x="140" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Shipping personal projects alongside studies</text>
+<circle cx="100" cy="304" r="7" fill="#F59E0B"/>
+<circle cx="100" cy="304" r="3.5" fill="#FAFAF8"/>
+<text x="140" y="308" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#B45309" letter-spacing="2">SWE INTERN</text>
+<text x="840" y="308" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#71717A" text-anchor="end">Sep 2025  →  Dec 2025</text>
+<text x="140" y="332" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="600" fill="#09090B">Software Engineering Internship</text>
+<text x="140" y="352" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" fill="#52525B">Office of Science &amp; Technology  ·  Kean University</text>
+<text x="140" y="386" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Built Python OCR pipeline: 100+ PDFs → Excel (~90% accuracy)</text>
+<text x="140" y="406" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Automated data cleaning, cut manual work by 70%</text>
+<text x="140" y="426" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Adaptive parsing for messy document layouts</text>
+<circle cx="100" cy="490" r="7" fill="#F59E0B"/>
+<circle cx="100" cy="490" r="3.5" fill="#FAFAF8"/>
+<text x="140" y="494" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#B45309" letter-spacing="2">RESEARCHER</text>
+<text x="840" y="494" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#71717A" text-anchor="end">Nov 2024  →  Sep 2025</text>
+<text x="140" y="518" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="600" fill="#09090B">Undergraduate Researcher</text>
+<text x="140" y="538" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" fill="#52525B">Kean University</text>
+<text x="140" y="572" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Adversarial testing on ChatGPT &amp; Gemini (50+ prompts)</text>
+<text x="140" y="592" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  PyTorch ML pipelines on 10K+ sample datasets</text>
+<text x="140" y="612" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Evaluated LLM robustness, bias &amp; prompt-injection vulns</text>
+<circle cx="100" cy="676" r="7" fill="#F59E0B"/>
+<circle cx="100" cy="676" r="3.5" fill="#FAFAF8"/>
+<text x="140" y="680" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#B45309" letter-spacing="2">TECH SUPPORT</text>
+<text x="840" y="680" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#71717A" text-anchor="end">Sep 2024  →  Present</text>
+<text x="140" y="704" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="600" fill="#09090B">Technical Support Assistant</text>
+<text x="140" y="724" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" fill="#52525B">Kean University</text>
+<text x="140" y="758" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Resolve 20-30 issues/week (OS, hardware, software)</text>
+<text x="140" y="778" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Maintain &amp; configure 30+ lab workstations</text>
+<text x="140" y="798" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Software installs, troubleshooting &amp; optimization</text>
+<circle cx="100" cy="862" r="7" fill="#F59E0B"/>
+<circle cx="100" cy="862" r="3.5" fill="#FAFAF8"/>
+<text x="140" y="866" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#B45309" letter-spacing="2">BS IN CS &amp; IS</text>
+<text x="840" y="866" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#71717A" text-anchor="end">Sep 2021  →  Dec 2025</text>
+<text x="140" y="890" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="600" fill="#09090B">B.S. Computer Science &amp; Information Systems</text>
+<text x="140" y="910" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" fill="#52525B">Kean University  ·  GPA 3.4</text>
+<text x="140" y="944" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" fill="#3F3F46"><tspan fill="#A1A1AA" font-weight="700">·</tspan>  Coursework: OS, DSA, Databases, Software Engineering</text>
+</svg>

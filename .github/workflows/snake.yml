@@ -1,28 +1,20 @@
 name: Generate Stats Cards
-
 on:
   schedule:
     - cron: "0 3 * * *"   # Every day at 3 AM UTC
-  workflow_dispatch:       
-
+  workflow_dispatch:
 jobs:
   generate-cards:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      # Checkout the repo using  PAT so we can push back
       - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
+        uses: actions/checkout@v5
 
-      # Create the output folder
       - name: Create profile directory
         run: mkdir -p profile
 
-     
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -41,7 +33,6 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Commit and push the generated SVGs
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
